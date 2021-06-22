@@ -1,0 +1,39 @@
+@import "../header.scss";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  input {
+    outline: none;
+  }
+}
+
+header {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+.hidden {
+  position: absolute;
+  left: -999999px;
+  top: -999999px;
+}
+
+.filter-icon {
+  background: url(../../assets/filter.svg) center no-repeat;
+  height: 20px;
+  margin-left: 8px;
+  width: 20px;
+}

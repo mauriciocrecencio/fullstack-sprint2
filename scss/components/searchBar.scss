@@ -1,0 +1,35 @@
+.header {
+  &__search-bar {
+    position: relative;
+  }
+  &__search-icon {
+    background: url(../../assets/search.svg) no-repeat;
+    color: rgba(0, 0, 0, 0.26);
+    height: 24px;
+    left: 10px;
+    line-height: 40px;
+    opacity: 26%;
+    position: absolute;
+    top: 8px;
+    width: 24px;
+  }
+
+  &__search-input {
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    border-radius: 4px;
+    height: 40px;
+    padding-left: 40px;
+    width: 100%;
+
+    &:hover {
+      border-color: #000;
+    }
+
+    &::placeholder {
+      color: #9b9b9b;
+      font-size: 0.9375rem;
+      font-family: "Open Sans";
+      font-weight: 600;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@import "./components/logo.scss", "./components/searchBar.scss", "./components/drawer.scss",
+  "./components/menu.scss";
+
+.header {
+  margin: auto;
+  max-width: 1200px;
+  width: 95%;
+
+  &__container--mobile {
+    display: none;
+    margin-bottom: 25px;
+
+    @include for-phone-only {
+      align-items: center;
+      display: flex;
+    }
+  }
+  &__container--desktop {
+    @include for-phone-only {
+      display: none;
+    }
+  }
+}

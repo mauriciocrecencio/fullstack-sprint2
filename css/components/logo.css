@@ -1,0 +1,30 @@
+.header__logo {
+  line-height: 70px;
+  text-align: center;
+}
+@media (max-width: 1200px) {
+  .header__logo {
+    flex-grow: 1;
+  }
+}
+.header__logo--mobile {
+  height: 25px;
+  transform: translateY(10px);
+  background: url(../../assets/rchlo.svg) center no-repeat;
+}
+@media (max-width: 1200px) {
+  .header__logo--mobile {
+    flex-grow: 1;
+  }
+}
+.header__logo--desktop {
+  height: 70px;
+  background: url(../../assets/riachuelo.svg) center no-repeat;
+}
+@media (max-width: 1200px) {
+  .header__logo--desktop {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=logo.css.map */
