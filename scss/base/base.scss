@@ -25,6 +25,7 @@ header {
   display: none;
 }
 
+// Para não usar display: none; e favorecer à acessibilidade
 .hidden {
   position: absolute;
   left: -999999px;
